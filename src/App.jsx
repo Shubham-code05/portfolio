@@ -1,3 +1,5 @@
+
+import profile from "./assets/profile.jpg";
 export default function Portfolio() {
   const projects = [
     {
@@ -58,7 +60,7 @@ export default function Portfolio() {
             </h2>
 
             <h3 className="text-2xl md:text-3xl text-gray-300 mb-6">
-              Java Developer • MERN Learner • React Enthusiast
+              MERN Stack Developer • Java & DSA 
             </h3>
 
             <p className="text-gray-400 max-w-xl text-lg leading-8 mb-8">
@@ -85,9 +87,13 @@ export default function Portfolio() {
 
           <div className="flex justify-center">
             <div className="relative w-80 h-80 rounded-full bg-gradient-to-br from-cyan-500 to-blue-600 p-1">
-              <div className="w-full h-full rounded-full bg-zinc-900 flex items-center justify-center text-7xl font-bold text-cyan-400">
-                SP
-              </div>
+               <div className="w-full h-full rounded-full bg-zinc-900 overflow-hidden">
+                 <img
+                    src={profile}
+                    alt="Profile"
+                    className="w-full h-full object-cover"
+                 />
+             </div>
             </div>
           </div>
         </div>
@@ -98,7 +104,7 @@ export default function Portfolio() {
           <h2 className="text-4xl font-bold mb-6">About Me</h2>
 
           <p className="text-gray-400 text-lg leading-8 max-w-3xl mx-auto">
-            I am passionate about software development and currently learning MERN Stack while strengthening my Java and DSA skills for placements.
+            I am a B.Tech Computer Science student passionate about Full Stack Web Development. I specialize in React, Node.js, Express.js, MongoDB, Java, and Data Structures & Algorithms. I enjoy building responsive web applications and continuously improving my problem-solving skills.
           </p>
         </div>
       </section>
@@ -168,14 +174,14 @@ export default function Portfolio() {
 
           <div className="flex flex-wrap justify-center gap-5">
             <a
-              href="mailto:yourmail@example.com"
+              href="mailto:ishubham5999@gmail.com"
               className="px-6 py-3 rounded-2xl bg-cyan-500 text-black font-semibold hover:bg-cyan-400 transition"
             >
               Email Me
             </a>
 
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Shubham-code05"
               target="_blank"
               className="px-6 py-3 rounded-2xl border border-white/20 hover:border-cyan-400 hover:text-cyan-400 transition"
             >
@@ -183,7 +189,7 @@ export default function Portfolio() {
             </a>
 
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/shubham-prajapati-a986b3251/"
               target="_blank"
               className="px-6 py-3 rounded-2xl border border-white/20 hover:border-cyan-400 hover:text-cyan-400 transition"
             >
